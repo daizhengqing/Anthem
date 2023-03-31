@@ -1,0 +1,18 @@
+{
+  "name": "Meta",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "repository": "https://github.com/daizhengqing/Meta.git",
+  "author": "zhengqing <Zhengqing.dai@homepartners.tech>",
+  "license": "MIT",
+  "scripts": {
+    "v3c": "cd packages/vue3-components && yarn dev"
+  },
+  "devDependencies": {
+    "lerna": "^6.5.1"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "moduleResolution": "Node",
+    "declaration": false,
+    "lib": [
+      "DOM",
+      "ESNext"
+    ],
+    "module": "ES2022",
+    "target": "ESNext"
+  }
+}
